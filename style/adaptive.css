@@ -1,0 +1,105 @@
+@media (max-width: 500px){
+    .burger {
+        display: flex;
+    }
+    .header nav {
+        display: none;
+    }
+}
+@media (max-width:851px){
+    #meta {
+        position: relative;
+    }
+    .meta{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .meta-btn {
+        padding-inline: auto;
+    }
+    .meta-active {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+    .meta-active h2:first-child{
+        position: absolute;
+        top: 180px;
+        left: -100px;
+    }
+    .meta-active h2:last-child{
+        position: absolute;
+        right: -450px;
+        top: 100px;
+    }
+    .what {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .what img {
+        max-width: 345px;
+        width: 100%;
+      }
+      .what-text {
+        max-width: 350px;
+        width: 100%;
+      }
+      .how-box {
+        margin-inline: auto;
+      }
+      .footer {
+        flex-direction: column;
+        text-align: center;
+      }
+      .footer-meta {
+        margin-inline: auto;
+      }
+      .footer-connect {
+        display: flex;
+        flex-wrap: wrap;
+        margin-inline: auto;
+      }
+      .footer-more {
+        margin-inline: auto;
+      }
+}
+@media (max-width:700px){
+.meta img {
+    max-width: 400px;
+}
+.meta-active h2:last-child{
+    position: absolute;
+    right: -200px;
+    top: 100px;
+}
+}
+@media (max-width:420px){
+    .how-box {
+        max-width: 350px;}
+    .how-box img{
+        width: 100%;
+        max-width: 400px;
+    }
+    .meta-btn button {
+        padding-block: 3px;
+        font-size: 10px;
+    }
+    .meta-btn button:last-child {
+        font-size: 10px;
+    }
+    .meta-active h2:last-child{
+        position: absolute;
+        right: -100px;
+        top: 100px;
+    }
+    .what-text button {
+        padding-block: 5px;
+        font-size: 10px;
+    }
+    .footer-meta{
+        padding-block: 20px;
+    }
+    .footer-connect {
+        gap: 20px;
+    }
+}
