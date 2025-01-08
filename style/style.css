@@ -26,13 +26,8 @@ p{
 }
 button {
   border-radius: 5px;
-  background: linear-gradient(
-    158.4deg,
-    rgb(209, 14, 209) 10.9%,
-    rgb(16, 163, 218) 88.221%
-  );
   border: none;
-  color: white;
+  color: black;
 }
 button:hover {
   transform: scale(1.1);
@@ -137,6 +132,12 @@ padding-block: 30px;
  max-width: 200px;
  padding-block: 10px;
  font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+}
+.meta-btn button:hover {
+  font-family: Poppins;
+  color: #ffffff;
+  border: none;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
 }
 .meta-btn button:last-child{
   background: none;
