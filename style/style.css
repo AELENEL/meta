@@ -75,6 +75,11 @@ padding-block: 30px;
   color: white;
   font-size: clamp(0.75rem, 0.638rem + 0.56vw, 1.125rem)
 }
+.header a:hover{
+  transform: 1, 1;
+  transition: 1s;
+  color: red;
+}
 /*! Meta */
 #meta {
 padding-block: 30px;  
